@@ -110,8 +110,8 @@ describe('esEntero(num)', function() {
   it('should return true if num is 5', function() {
     expect(esEntero(5)).toBe(true);
   });
-  it('should return false if num is 0.5', function() {
-    expect(esEntero(0.5)).toBe(false);
+  it('should return false if num is 7.5', function() {
+    expect(esEntero(7.5)).toBe(false);
   });
   it('should return true if num is -20', function() {
     expect(esEntero(-20)).toBe(true);
